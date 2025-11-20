@@ -1,0 +1,33 @@
+:root {
+  --bg-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.nav {
+  padding: 1em;
+  background-color: #362bff;
+  display: flex;
+  justify-content: center;
+}
+
+.fundo {
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1em 0.5em;
+}
